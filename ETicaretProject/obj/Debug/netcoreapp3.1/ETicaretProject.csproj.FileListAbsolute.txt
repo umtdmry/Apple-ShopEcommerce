@@ -1,0 +1,10 @@
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\bin\Debug\netcoreapp3.1\ETicaretProject.exe
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\ETicaretProject.csprojAssemblyReference.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\ETicaretProject.AssemblyInfoInputs.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\ETicaretProject.AssemblyInfo.cs
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\ETicaretProject.RazorTargetAssemblyInfo.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\staticwebassets\ETicaretProject.StaticWebAssets.Manifest.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaretProject\obj\Debug\netcoreapp3.1\staticwebassets\ETicaretProject.StaticWebAssets.xml
