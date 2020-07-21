@@ -1,0 +1,18 @@
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.deps.json
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.dll
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.pdb
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csprojAssemblyReference.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csproj.CoreCompileInputs.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfoInputs.cache
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfo.cs
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.dll
+C:\Users\umutd\Desktop\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.pdb
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.deps.json
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.dll
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.pdb
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csprojAssemblyReference.cache
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csproj.CoreCompileInputs.cache
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfoInputs.cache
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfo.cs
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.dll
+D:\umut\Kod Proje Kurs\bitirme tezi\ETicaret\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.pdb
