@@ -1,0 +1,72 @@
+﻿@model List<OrderListModel>
+@{
+    ViewData["Title"] = "GetOrders";
+}
+
+<h1>Siparişlerim</h1>
+<hr />
+@if (Model.Count > 0)
+{
+    @foreach (var order in Model)
+    {
+        <table class="table table-bordered table-sm mb-3">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <td colspan="2">Sipariş Id: #@order.OrderId</td>
+                    <th>Fiyat</th>
+                    <th>Miktar</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var orderItem in order.OrderItems)
+                {
+                    <tr>
+                        <td><img src="~/img/@orderItem.ImageUrl" width="50" /></td>
+                        <td>@orderItem.Name</td>
+                        <td>@orderItem.Price</td>
+                        <td>@orderItem.Quantity</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+
+                <tr>
+                    <td colspan="2">Müşteri İsmi:</td>
+                    <td>@order.FirstName @order.LastName</td>
+                    <td rowspan="6">Toplam Fiyat @order.TotalPrice()</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Adres:</td>
+                    <td>@order.Address</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Telefon:</td>
+                    <td>@order.Phone</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Eposta:</td>
+                    <td>@order.Email</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Ödeme Şekli:</td>
+                    <td>@order.PaymentTypes</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Sipariş Durumu:</td>
+                    <td>@order.OrderState</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    }
+}
+else
+{
+    <div class="alert alert-warning">
+        <h5>Daha Önce Her Hangi Bir Sipariş Verilmemiştir !</h5>
+    </div>
+}
+
+

@@ -1,0 +1,39 @@
+﻿@model CategoryModel
+@{
+    ViewData["Title"] = "CreateCategory";
+}
+@section Scripts {
+    <script src="/modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<h1>Kategori Ekle</h1>
+
+<div class="row">
+
+    <div class="col-md-8">
+
+        <form asp-controller="Admin" asp-action="CreateCategory" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group row">
+                <label asp-for="Name" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Name" value="@Model.Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-10 offsat-md-2">
+                    <button type="submit" class="btn btn-dark">Kategori Kaydet</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+

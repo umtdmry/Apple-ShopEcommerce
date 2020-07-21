@@ -1,0 +1,60 @@
+﻿@model ProductListModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-md-10">
+        <h1>Ürün İşlemleri</h1>
+    </div>
+    <div class="col-md-2">
+        <form action="/admin/createproduct" method="get" style="display:inline">
+            <button class="btn btn-success " style="margin-left:20px;margin-top:10px;" type="submit">Ürün Ekle</button>
+        </form>
+    </div>
+</div>
+<hr />
+
+@if (Model.Products.Count() > 0)
+{
+    <table class="table ">
+        <thead class="thead-dark">
+            <tr>
+                <td style="width:30px;">Id</td>
+                <td style="width:100px;">Resim</td>
+                <td>İsim</td>
+                <td style="width:120px;">Fiyat</td>
+                <td style="width:150px;"></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td><img src="~/img/@product.ImageUrl" width="50" /></td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm mr-2" href="/admin/products/@product.Id">Güncelle</a>
+
+                        <form action="/admin/deleteproduct" method="post" style="display:inline">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <button class="btn btn-danger  btn-sm mr-2" type="submit">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>Ürün Yok !</h4>
+    </div>
+}
